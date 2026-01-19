@@ -37,9 +37,8 @@ class Todo {
 
     this._todoNameEl.textContent = this._data.name;
 
-    this._date = new Date(this._dateInput);
-    this._date.setMinutes(
-      this._date.getMinutes() + this._date.getTimezoneOffset()
+    this._data.date.setMinutes(
+      this._data.date.getMinutes() + this._data.date.getTimezoneOffset(),
     );
 
     this._dueDate = new Date(this._data.date);
@@ -50,7 +49,7 @@ class Todo {
           year: "numeric",
           month: "short",
           day: "numeric",
-        }
+        },
       )}`;
     }
 

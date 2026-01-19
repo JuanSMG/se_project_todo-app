@@ -14,4 +14,4 @@ I used gitbash, internet exployer, Visual Studio and used gitpages to deploy onl
 
 This project is deployed on GitHub Pages:
 
-- [ADD LINK HERE](https://juansmg.github.io/)
+- [ADD LINK HERE](https://github.com/JuanSMG/se_project_todo-app.git)
